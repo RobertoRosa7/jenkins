@@ -1,7 +1,0 @@
----
-- hosts: {{host_target}}
-  tasks:
-    - name: "update"
-      apt:
-        name: update
-      become: yes
